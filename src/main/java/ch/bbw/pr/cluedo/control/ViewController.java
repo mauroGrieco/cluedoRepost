@@ -1,6 +1,6 @@
 package ch.bbw.pr.cluedo.control;
 
-import ch.bbw.pr.cluedo.model.Person;
+
 import ch.bbw.pr.cluedo.model.DataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

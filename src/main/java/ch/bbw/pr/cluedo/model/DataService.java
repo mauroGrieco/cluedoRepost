@@ -6,6 +6,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import static java.util.List.*;
+
 /**
  * PunchListService
  *
@@ -14,7 +16,7 @@ import java.util.List;
  */
 @Service
 public class DataService {
-   private List<Person> persons = List.of(
+   private List<Person> persons = of(
          new Person("Mustard", "Colonel"),
          new Person("Scarlett", "Miss")
    );
