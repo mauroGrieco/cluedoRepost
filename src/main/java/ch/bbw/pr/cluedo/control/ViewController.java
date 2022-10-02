@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.*;
  * @version 29.08.2022
  */
 @Controller
+@CrossOrigin(allowedHeaders = "*")
 public class ViewController {
    @Autowired
    private DataService service;
